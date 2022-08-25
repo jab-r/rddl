@@ -1,0 +1,18 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" 
+		ns="http://www.w3.org/1999/xhtml">
+
+<define name="a" combine="interleave"  ns="http://www.w3.org/1999/xhtml">
+  <optional>
+    <attribute ns="http://www.rddl.org/">
+      <name>nature</name>
+      <text/>
+    </attribute>
+  </optional>
+  <optional>
+    <attribute ns="http://www.rddl.org/">
+      <name>purpose</name>
+      <text/>
+    </attribute>
+  </optional>
+</define>
+</grammar>

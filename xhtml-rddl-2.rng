@@ -1,0 +1,22 @@
+<!-- RDDL2 - XHTML Basic -->
+
+<grammar ns="http://www.w3.org/1999/xhtml"
+         xmlns="http://relaxng.org/ns/structure/1.0">
+
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/datatypes.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/attribs.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/struct.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/text.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/hypertext.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/list.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/basic-form.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/basic-table.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/image.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/param.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/object.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/meta.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/link.rng"/>
+<include href="http://thaiopensource.com/relaxng/xhtml/modules/base.rng"/>
+<include href="modules/rddl2.rng"/>
+</grammar>
+
